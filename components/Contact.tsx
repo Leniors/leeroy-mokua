@@ -3,7 +3,7 @@ import ContactButtons from "./ContactButtons";
 
 const Contact = () => {
   return (
-    <section id="contact" className="text-center md:py-20">
+    <section id="contact" className="text-center md:py-16">
       <h2 className="text-3xl font-bold text-white mb-6">
         Let’s Build Together
       </h2>

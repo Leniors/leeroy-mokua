@@ -6,6 +6,7 @@ import { navItems } from '@/data'
 import WhatIDo from '@/components/WhatIDo'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
+import Services from '../components/Services'
 
 const page = () => {
 
@@ -16,6 +17,7 @@ const page = () => {
         <Hero />
         <WhatIDo />
         <RecentProjects />
+        <Services />
         <Contact />
         <Footer />
       </div>

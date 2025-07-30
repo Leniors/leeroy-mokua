@@ -1,5 +1,5 @@
 // data/bento/index.tsx
-import { Box, Atom, Paintbrush } from "lucide-react";
+import { Box, Atom, Paintbrush, Briefcase } from "lucide-react";
 import {
   Code2,
   MonitorSmartphone,
@@ -24,6 +24,11 @@ export const navItems = [
     name: "Projects",
     link: "#projects",
     icon: <Folder className="h-4 w-4 text-neutral-500 dark:text-white" />,
+  },
+  {
+    name: "Services",
+    link: "#services",
+    icon: <Briefcase className="h-4 w-4 text-neutral-500 dark:text-white" />,
   },
   {
     name: "Contact",

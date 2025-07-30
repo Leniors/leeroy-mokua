@@ -1,10 +1,25 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 // data/projects.ts
-import { FaReact, FaCode, FaDatabase } from "react-icons/fa";
+import { FaReact, FaCode, FaDatabase, FaBrain } from "react-icons/fa";
 import { SiAppwrite, SiNextdotjs, SiTailwindcss } from "react-icons/si";
 
 export const projects = [
+  {
+    id: 4,
+    title: "LegalEase AI",
+    description:
+      "A smart legal assistant that helps users ask legal questions and receive accurate AI-generated responses. Includes a clean landing page, an intuitive Ask page, and an About section.",
+    iconLists: [<FaReact />, <SiAppwrite />, <FaBrain />],
+    header: (
+      <img
+        src="/legalease-ai.png"
+        alt="LegalEase AI Screenshot"
+        className="rounded-xl object-cover h-48 w-full"
+      />
+    ),
+    link: "https://legal-ease-ai-nine.vercel.app/",
+  },
   {
     id: 3,
     title: "The Vault",
@@ -49,5 +64,5 @@ export const projects = [
       />
     ),
     link: "https://jobtrek-ai.vercel.app/",
-  }
+  },
 ];
